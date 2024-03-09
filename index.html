@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<script src="index.js"></script>
+  <body>
+    <div class="root">
+      <div class="Inputbox">
+        <input type="number" id="input" />
+      </div>
+      
+
+        <div class="keys">
+          <div>
+            <button id="seven" onclick="seven()">7</button>
+          </div>
+          <div>
+            <button id="eight" onclick="eight()">8</button>
+          </div>
+          <div>
+            <button id="nine" onclick="nine()">9</button>
+          </div>
+          <div>
+            <button id="delete-btn" onclick="del()">DEL</button>
+          </div>
+          <div>
+            <button id="six" onclick="six()">6</button>
+          </div>
+          <div>
+            <button id="five" onclick="five()" >5</button>
+          </div>
+          <div>
+            <button id="four" onclick="four()">4</button>
+          </div>
+          <div>
+            <button id="plus" onclick="plus()">+</button>
+          </div>
+          <div>
+            <button id="three" onclick="three()">3</button>
+          </div>
+          <div>
+            <button id="two" onclick="two()">2</button>
+          </div>
+          <div>
+            <button id="one" onclick="one()">1</button>
+          </div>
+          <div>
+            <button id="minus" onclick="minus()">-</button>
+          </div>
+          <div>
+            <button id="dot" onclick="dot()">.</button>
+          </div>
+          <div>
+            <button id="zero" onclick="zero()">0</button>
+          </div>
+          <div>
+            <button id="divide" onclick="divide()">/</button>
+          </div>
+          <div>
+            <button id="into" onclick="into()">*</button>
+          </div>
+
+        </div>
+        <div class="inside-keys">
+          <button id="reset-btn" onclick="reset()">RESET</button>
+          <button id="equal-btn" onclick="calculate()">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
